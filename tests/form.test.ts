@@ -1,5 +1,5 @@
-import { multipartFormRequestOptions, createForm } from 'heartbeat/internal/uploads';
-import { toFile } from 'heartbeat/core/uploads';
+import { multipartFormRequestOptions, createForm } from '@heartbeat-chat/heartbeat/internal/uploads';
+import { toFile } from '@heartbeat-chat/heartbeat/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {

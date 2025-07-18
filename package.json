@@ -1,5 +1,5 @@
 {
-  "name": "heartbeat",
+  "name": "@heartbeat-chat/heartbeat",
   "version": "0.0.1-alpha.0",
   "description": "The official TypeScript library for the Heartbeat API",
   "author": "Heartbeat <support@heartbeat.chat>",
@@ -47,8 +47,8 @@
     "typescript-eslint": "8.31.1"
   },
   "imports": {
-    "heartbeat": ".",
-    "heartbeat/*": "./src/*"
+    "@heartbeat-chat/heartbeat": ".",
+    "@heartbeat-chat/heartbeat/*": "./src/*"
   },
   "exports": {
     ".": {
