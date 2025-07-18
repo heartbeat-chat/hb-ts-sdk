@@ -26,7 +26,7 @@ export { endpoints } from './tools';
 export const server = new McpServer(
   {
     name: 'heartbeat_chat_heartbeat_api',
-    version: '0.0.1-alpha.0',
+    version: '1.0.0',
   },
   { capabilities: { tools: {} } },
 );
