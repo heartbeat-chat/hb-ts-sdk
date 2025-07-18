@@ -1,5 +1,5 @@
 {
-  "name": "heartbeat-mcp",
+  "name": "@heartbeat-chat/heartbeat-mcp",
   "version": "1.1.0",
   "description": "The official MCP Server for the Heartbeat API",
   "author": "Heartbeat <support@heartbeat.chat>",
@@ -55,8 +55,8 @@
     "typescript": "5.8.3"
   },
   "imports": {
-    "heartbeat-mcp": ".",
-    "heartbeat-mcp/*": "./src/*"
+    "@heartbeat-chat/heartbeat-mcp": ".",
+    "@heartbeat-chat/heartbeat-mcp/*": "./src/*"
   },
   "exports": {
     ".": {

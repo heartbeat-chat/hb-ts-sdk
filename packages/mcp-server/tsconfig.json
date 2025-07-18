@@ -9,8 +9,8 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "heartbeat-mcp/*": ["src/*"],
-      "heartbeat-mcp": ["src/index.ts"]
+      "@heartbeat-chat/heartbeat-mcp/*": ["src/*"],
+      "@heartbeat-chat/heartbeat-mcp": ["src/index.ts"]
     },
     "noEmit": true,
 
