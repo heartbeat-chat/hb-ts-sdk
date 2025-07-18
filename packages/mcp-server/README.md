@@ -10,7 +10,7 @@ You can run the MCP Server directly via `npx`:
 
 ```sh
 export HEARTBEAT_API_KEY="My API Key"
-npx -y heartbeat-mcp@latest
+npx -y @heartbeat-chat/heartbeat-mcp@latest
 ```
 
 ### Via MCP Client
@@ -25,7 +25,7 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "heartbeat_chat_heartbeat_api": {
       "command": "npx",
-      "args": ["-y", "heartbeat-mcp", "--client=claude", "--tools=all"],
+      "args": ["-y", "@heartbeat-chat/heartbeat-mcp", "--client=claude", "--tools=all"],
       "env": {
         "HEARTBEAT_API_KEY": "My API Key"
       }
@@ -130,10 +130,10 @@ over time, you can manually enable or disable certain capabilities:
 
 ```js
 // Import the server, generated endpoints, or the init function
-import { server, endpoints, init } from "heartbeat-mcp/server";
+import { server, endpoints, init } from "@heartbeat-chat/heartbeat-mcp/server";
 
 // import a specific tool
-import retrieveUsers from "heartbeat-mcp/tools/users/retrieve-users";
+import retrieveUsers from "@heartbeat-chat/heartbeat-mcp/tools/users/retrieve-users";
 
 // initialize the server and all endpoints
 init({ server, endpoints });

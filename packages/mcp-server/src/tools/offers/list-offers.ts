@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { Metadata, asTextContentResult } from 'heartbeat-mcp/tools/types';
+import { Metadata, asTextContentResult } from '@heartbeat-chat/heartbeat-mcp/tools/types';
 
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
 import Heartbeat from '@heartbeat-chat/heartbeat';

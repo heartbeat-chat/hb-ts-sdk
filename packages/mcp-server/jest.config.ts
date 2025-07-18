@@ -7,8 +7,8 @@ const config: JestConfigWithTsJest = {
     '^.+\\.(t|j)sx?$': ['@swc/jest', { sourceMaps: 'inline' }],
   },
   moduleNameMapper: {
-    '^heartbeat-mcp$': '<rootDir>/src/index.ts',
-    '^heartbeat-mcp/(.*)$': '<rootDir>/src/$1',
+    '^@heartbeat-chat/heartbeat-mcp$': '<rootDir>/src/index.ts',
+    '^@heartbeat-chat/heartbeat-mcp/(.*)$': '<rootDir>/src/$1',
   },
   modulePathIgnorePatterns: ['<rootDir>/dist/'],
   testPathIgnorePatterns: ['scripts'],
