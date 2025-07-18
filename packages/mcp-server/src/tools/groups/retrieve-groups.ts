@@ -4,7 +4,7 @@ import { maybeFilter } from 'heartbeat-mcp/filtering';
 import { Metadata, asTextContentResult } from 'heartbeat-mcp/tools/types';
 
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
-import Heartbeat from 'heartbeat';
+import Heartbeat from '@heartbeat-chat/heartbeat';
 
 export const metadata: Metadata = {
   resource: 'groups',

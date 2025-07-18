@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import Heartbeat from 'heartbeat';
+import Heartbeat from '@heartbeat-chat/heartbeat';
 
 const client = new Heartbeat({
   apiKey: 'My API Key',

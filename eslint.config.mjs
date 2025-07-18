@@ -25,7 +25,7 @@ export default tseslint.config(
         {
           patterns: [
             {
-              regex: '^heartbeat(/.*)?',
+              regex: '^@heartbeat-chat/heartbeat(/.*)?',
               message: 'Use a relative import, not a package import.',
             },
           ],

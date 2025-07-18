@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'heartbeat/core/api-promise';
+import { APIPromise } from '@heartbeat-chat/heartbeat/core/api-promise';
 
 import util from 'node:util';
-import Heartbeat from 'heartbeat';
-import { APIUserAbortError } from 'heartbeat';
+import Heartbeat from '@heartbeat-chat/heartbeat';
+import { APIUserAbortError } from '@heartbeat-chat/heartbeat';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {

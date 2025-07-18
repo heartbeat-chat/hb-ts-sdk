@@ -1,4 +1,4 @@
-import Heartbeat from 'heartbeat';
+import Heartbeat from '@heartbeat-chat/heartbeat';
 import { Endpoint, asTextContentResult, ToolCallResult } from './tools/types';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import { z } from 'zod';
