@@ -9,8 +9,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/heartbeat-typescript.git
-cd heartbeat-typescript
+git clone git@github.com:heartbeat-chat/hb-ts-sdk.git
+cd hb-ts-sdk
 ./scripts/bootstrap
 ./scripts/build
 ```
@@ -40,7 +40,7 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "heartbeat_api": {
       "command": "node",
-      "args": ["/path/to/local/heartbeat-typescript/packages/mcp-server", "--client=claude", "--tools=all"],
+      "args": ["/path/to/local/hb-ts-sdk/packages/mcp-server", "--client=claude", "--tools=all"],
       "env": {
         "HEARTBEAT_API_KEY": "My API Key"
       }
