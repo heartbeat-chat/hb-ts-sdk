@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "heartbeat/*": ["dist/src/*"],
-      "heartbeat": ["dist/src/index.ts"]
+      "@heartbeat-chat/heartbeat/*": ["dist/src/*"],
+      "@heartbeat-chat/heartbeat": ["dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,

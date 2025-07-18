@@ -1,4 +1,4 @@
-import { createPathTagFunction, encodeURIPath } from 'heartbeat/internal/utils/path';
+import { createPathTagFunction, encodeURIPath } from '@heartbeat-chat/heartbeat/internal/utils/path';
 import { inspect } from 'node:util';
 import { runInNewContext } from 'node:vm';
 
