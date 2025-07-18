@@ -1,4 +1,4 @@
 configured_endpoints: 10
 openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/heartbeat%2Fheartbeat-f26f94b8bf997543ad0e5e6381ba431c108c07f135eb4472c757b259933deac5.yml
 openapi_spec_hash: c36601531e8a2d5d8662fcb72b76854a
-config_hash: 714de20a55526a50144a89de6b8b409e
+config_hash: 15c7491898e36c74291dcd9a5e9355e3
