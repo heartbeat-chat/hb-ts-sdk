@@ -53,7 +53,7 @@ export interface SignupPage {
   id: string;
 
   /**
-   * Whether an sign up page is archived or active. If archived, no new users may use
+   * Whether a sign up page is archived or active. If archived, no new users may use
    * the sign up page.
    */
   archived: boolean;
