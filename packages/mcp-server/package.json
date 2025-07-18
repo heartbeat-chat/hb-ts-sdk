@@ -8,10 +8,10 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stainless-sdks/heartbeat-typescript.git",
+    "url": "git+https://github.com/heartbeat-chat/hb-ts-sdk.git",
     "directory": "packages/mcp-server"
   },
-  "homepage": "https://github.com/stainless-sdks/heartbeat-typescript/tree/main/packages/mcp-server#readme",
+  "homepage": "https://github.com/heartbeat-chat/hb-ts-sdk/tree/main/packages/mcp-server#readme",
   "license": "Apache-2.0",
   "packageManager": "yarn@1.22.22",
   "private": false,
