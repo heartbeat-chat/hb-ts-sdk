@@ -144,11 +144,9 @@ export namespace SignupPage {
     subtitle?: string;
 
     /**
-     * A testimonial meant to build trust and increase credibility for visitors on the
-     * custom landing page. It consists of a plain-text quote, name of the person that
-     * said the quote, and image.
+     * Testimonial to build trust and credibility
      */
-    testimonial?: unknown | null;
+    testimonial?: LandingPage.Testimonial | null;
 
     /**
      * The H1 of the custom landing page.
@@ -156,9 +154,49 @@ export namespace SignupPage {
     title?: string;
 
     /**
-     * The embed code for the video to be displayed on the custom landing page.
+     * Video embed configuration supporting link, embed HTML, or Mux video
      */
-    video?: unknown | null;
+    video?: LandingPage.UnionMember0 | LandingPage.UnionMember1 | LandingPage.UnionMember2 | null;
+  }
+
+  export namespace LandingPage {
+    /**
+     * Testimonial to build trust and credibility
+     */
+    export interface Testimonial {
+      /**
+       * URL of the testimonial author's image
+       */
+      imageUrl: string;
+
+      /**
+       * Name of the person giving the testimonial
+       */
+      name: string;
+
+      /**
+       * The testimonial text
+       */
+      text: string;
+    }
+
+    export interface UnionMember0 {
+      type: 'LINK';
+
+      url: string;
+    }
+
+    export interface UnionMember1 {
+      html: string;
+
+      type: 'EMBED';
+    }
+
+    export interface UnionMember2 {
+      type: 'MUX_VIDEO';
+
+      videoID: string;
+    }
   }
 
   export interface UnionMember0 {
