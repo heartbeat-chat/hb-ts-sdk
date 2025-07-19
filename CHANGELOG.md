@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.0 (2025-07-19)
+
+Full Changelog: [v1.3.0...v1.4.0](https://github.com/heartbeat-chat/hb-ts-sdk/compare/v1.3.0...v1.4.0)
+
+### Features
+
+* **api:** update via SDK Studio ([c1032ac](https://github.com/heartbeat-chat/hb-ts-sdk/commit/c1032aca6779dc236cc9cfb4db765ad3b6ea765b))
+
 ## 1.3.0 (2025-07-18)
 
 Full Changelog: [v1.2.0...v1.3.0](https://github.com/heartbeat-chat/hb-ts-sdk/compare/v1.2.0...v1.3.0)
