@@ -152,9 +152,18 @@ export interface Offer {
 }
 
 export namespace Offer {
+  /**
+   * Represents a user or group selection for access control
+   */
   export interface AccessibleTo {
+    /**
+     * Unique identifier of the group or user
+     */
     id: string;
 
+    /**
+     * Whether this selection refers to a group or individual user
+     */
     type: 'GROUP' | 'USER';
   }
 
@@ -264,7 +273,7 @@ export namespace Offer {
         testimonial?: Upsell.Testimonial | null;
 
         /**
-         * Video embed configuration
+         * Video embed configuration supporting link, embed HTML, or Mux video
          */
         video?: Upsell.UnionMember0 | Upsell.UnionMember1 | Upsell.UnionMember2 | null;
       }
@@ -353,7 +362,7 @@ export namespace Offer {
     testimonial?: Upsell.Testimonial | null;
 
     /**
-     * Video embed configuration
+     * Video embed configuration supporting link, embed HTML, or Mux video
      */
     video?: Upsell.UnionMember0 | Upsell.UnionMember1 | Upsell.UnionMember2 | null;
   }
