@@ -47,7 +47,7 @@ export class Channels extends APIResource {
  */
 export interface Channel {
   /**
-   * Unique identifier for the object.
+   * Unique identifier for the object
    */
   id: string;
 
@@ -58,15 +58,19 @@ export interface Channel {
   accessibleTo: Array<Channel.AccessibleTo> | null;
 
   /**
-   * Whether the channel is archived, in which case it is hidden from view for all
-   * users.
-   */
-  archived: boolean;
-
-  /**
    * Whether a channel is a thread channel, chat channel, or voice/video channel.
    */
-  channelType: Channel.ChannelType;
+  channelType: 'thread' | 'chat' | 'voice';
+
+  /**
+   * Timestamp when the channel was created.
+   */
+  createdAt: string;
+
+  /**
+   * Emoji that represents the channel in the community interface.
+   */
+  emoji: string;
 
   /**
    * Whether a channel is read-only for users. If true, users can only comment and
@@ -81,17 +85,19 @@ export interface Channel {
 }
 
 export namespace Channel {
+  /**
+   * Represents a user or group selection for access control
+   */
   export interface AccessibleTo {
+    /**
+     * Unique identifier of the group or user
+     */
     id: string;
 
+    /**
+     * Whether this selection refers to a group or individual user
+     */
     type: 'GROUP' | 'USER';
-  }
-
-  /**
-   * Whether a channel is a thread channel, chat channel, or voice/video channel.
-   */
-  export interface ChannelType {
-    type?: 'thread' | 'chat' | 'voice';
   }
 }
 

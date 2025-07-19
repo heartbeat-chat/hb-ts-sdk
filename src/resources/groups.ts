@@ -89,9 +89,18 @@ export interface Group {
 }
 
 export namespace Group {
+  /**
+   * Represents a user or group selection for access control
+   */
   export interface AccessibleTo {
+    /**
+     * Unique identifier of the group or user
+     */
     id: string;
 
+    /**
+     * Whether this selection refers to a group or individual user
+     */
     type: 'GROUP' | 'USER';
   }
 }
